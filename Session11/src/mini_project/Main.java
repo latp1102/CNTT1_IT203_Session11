@@ -3,8 +3,8 @@ package mini_project;
 public class Main {
     public static void main(String[] args) {
         GameCharacter[] characters = new GameCharacter[3];
-        characters[0] = new Warrior("Thor", 120, 20, 5);
-        characters[1] = new Mage("Merlin", 80, 25, 60);
+        characters[0] = new Warrior("Yasuo", 400, 20, 5);
+        characters[1] = new Mage("Veigar", 290, 150, 60);
         characters[2] = new GameCharacter("Goblin", 50, 0) {
             @Override
             public void attack(GameCharacter target) {
@@ -41,3 +41,4 @@ public class Main {
         }
     }
 }
+
